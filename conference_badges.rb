@@ -3,18 +3,14 @@ def badge_maker(name)
 end
 
 def batch_badge_creator (attendees)
-  i = 0
-    array = []
-  attendees.each do |attendee|
-  array << badge_maker(attendee)
-  i += 1
+  attendees.map do |attendee|
+   badge_maker(attendee)
   end
-  array
 end
 
 
 def assign_rooms (speakers)
-  room = 0
+  room = 0  
     array = [] 
   speakers.each do |speaker|
   array << "Hello, #{speaker}! You'll be assigned to room #{room + 1}!" 
