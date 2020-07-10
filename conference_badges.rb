@@ -22,4 +22,5 @@ end
 def printer(attendees)
   print speakers [room]
   print attendees [i]
-end
+  end
+end 
