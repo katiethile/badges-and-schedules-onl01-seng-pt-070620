@@ -20,6 +20,6 @@ def assign_rooms (speakers)
 end
 
 def printer(attendees)
-  
-  puts "Hello, my name is"
+  print speakers [room]
+  print attendees [i]
 end
